@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+c:\users\ieuser\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(9): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\ieuser\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(14): warning C4244: 'argument' : conversion de 'double' en 'DWORD', perte possible de données
+  ConsoleApplication1.vcxproj -> C:\Users\IEUser\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
