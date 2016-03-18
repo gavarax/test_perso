@@ -12,10 +12,7 @@ private :
 	void thread_lauch();
 	void threadClear();
 	std::mutex lastPrimNumberMutex;
-	std::mutex idleNotificationMutex;
-	std::mutex cleaningMutex;
-	std::condition_variable idleNotification;
-	std::condition_variable cleaning;
+
 
 public:
 	PrimeNumberList(int Nmax);

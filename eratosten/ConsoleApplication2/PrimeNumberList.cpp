@@ -33,16 +33,7 @@ void PrimeNumberList::thread_lauch()
 
 void PrimeNumberList::threadClear()
 {
-	while (bigestPrimerNumber != end())
-	{
-		Sleep(100);
-		unique_lock<mutex> cleanLock(cleaningMutex);
-		if (idleThreadNumber >= sharedCurrentThreadNumber)
-		{
-			remove_if([](auto i) {return i < 2; });
-			cleaning.notify_all();
-		}
-	}
+	
 }
 
 void PrimeNumberList::process(int nb_thread)
